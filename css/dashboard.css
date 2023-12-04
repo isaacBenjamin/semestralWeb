@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('gaming.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    color: rgb(220, 220, 220);
+}
+
+h2 {
+    color: rgb(220, 220, 220);
+    text-align: center;
+
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+
+    padding: 10px;
+    border: 9px double whitesmoke;
+    border-radius: 7px;
+    background: #007BFF;
+    color: #fff;
+
+
+
+    transition: background-color 0.3s;
+
+}
+
+a.logout-link {
+    float: right;
+}
+
+a:hover {
+    background: rgb(46, 184, 246);
+    background: linear-gradient(106deg, rgba(46, 184, 246, 1) 0%, rgba(150, 242, 232, 1) 100%);
+    text-decoration: wavy;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background: rgba(220, 220, 220, 0.95);
+
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+form {
+
+    float: right;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: 9px double whitesmoke;
+    border-radius: 20px;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background: rgb(46, 184, 246);
+    background: linear-gradient(106deg, rgba(46, 184, 246, 1) 0%, rgba(150, 242, 232, 1) 100%);
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    background-image: url('gaming.jpg');
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+}
+
+h2 {
+    color: #333;
+}
+
+h3,
+h4 {
+    color: #007BFF;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007BFF;
+    padding: 5px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.logout-link {
+    float: right;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+form {
+    display: inline-block;
+    float: right;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
