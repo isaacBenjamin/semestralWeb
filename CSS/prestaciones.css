@@ -1,0 +1,55 @@
+body {
+    background-image: url('Imagenes/fondo_prestaciones.jpg');
+
+}
+
+h1 {
+    color: var(--naranja_neon);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+h2, h3 {
+    color: var(--verde_neon);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--rosa_neon);
+    padding: 5px;
+    border: 1px solid var(--rosa_neon);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: rgba(255, 0, 255, 0.1);
+}
+
+a:hover {
+    background-color: var(--naranja_neon);
+    color: #fff;
+}
+
+/* Botones e inputs */
+
+form {
+    display: inline-block;
+    float: right;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.mensaje{
+    text-align: center;
+}
