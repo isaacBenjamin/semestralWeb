@@ -10,4 +10,5 @@ Galleta de ultimo juego prestado
 
 Se arregló la tabla de transacciones
 
+La api funciona
 
