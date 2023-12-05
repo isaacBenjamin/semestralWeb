@@ -5,8 +5,8 @@ include_once 'config.php';
 
 // GET request method
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    // Obtener todos los datos de la tabla libros
-    $result = $conexion->query("SELECT * FROM libros");
+    // Obtener todos los datos de la tabla juegos
+    $result = $conexion->query("SELECT * FROM juegos");
 
     if ($result) {
         // Obtener datos como un arreglo asociativo
