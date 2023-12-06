@@ -19,7 +19,7 @@ function registrarJuego($nombre, $consola, $lanzamiento, $publisher)
     if (is_numeric($lanzamiento) && strlen($lanzamiento) === 4 && $lanzamiento >= 1970 && $lanzamiento <= $anioActual) {
         $lanzamiento = mysqli_real_escape_string($conexion, $lanzamiento);
 
-        $query = "INSERT INTO juegos (nombre, consola, lanzamiento, disponibilidad) VALUES ('$nombre', '$consola', '$lanzamiento', '1',)";
+        $query = "INSERT INTO juegos (nombre, consola, lanzamiento, disponibilidad, publisher) VALUES ('$nombre', '$consola', '$lanzamiento', '1','$publisher')";
         
         $resultado = $conexion->query($query);
 
